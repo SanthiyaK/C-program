@@ -4,7 +4,7 @@ void main()
 int n;
 scanf("%d",&n);
 if(n%2==0)
-printf("even");
+printf("no is even");
 else
-printf("odd");
+printf("no is odd");
 }
