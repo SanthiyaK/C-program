@@ -1,8 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int i,n,flag=0;
+int i,n,flag=0,finish;
 scanf("%d",&n);
+while(n<=finish)
+{
 for(i=0;i<=n/2;i++)
 {
 if(n%i==0)
@@ -15,4 +17,6 @@ if(flag==0)
 printf("prime num");
 else
 printf("not a prime no");
+n++;
+}
 }
