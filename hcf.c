@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int 
+int num1,num2,i,hcf;
 scanf("%d",&num1);
 scanf("%d",&num2);
 for(i=1;i<=num1 && i<=num2;i++)
